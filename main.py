@@ -1,0 +1,12 @@
+import random
+
+length = random.randint(3, 10)
+my_list = []
+
+for i in range(length):
+    my_list.append(random.randint(1, 100))
+
+new_list = [my_list[0], my_list[2], my_list[-2]]
+
+print(my_list)
+print(new_list)
